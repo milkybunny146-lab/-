@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet run)",
+      "Bash(csc:*)",
+      "Bash(where:*)",
+      "Bash(\"C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe\" Program.cs)",
+      "Bash(Program.exe)",
+      "Bash(dotnet --version:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
